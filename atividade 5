@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/12/2022
+Var
+// Seção de Declarações das variáveis 
+distancia,passagem:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("distancia que deseja percorrer?")
+leia(distancia)
+escreval("O VALOR DA PASSAGEM ABAIXO DE 200KM É DE R$0,50")
+se distancia<200 então
+passagem<- 0.5*distancia
+senao
+passagem<- 0.45*distancia
+fimse
+escreval("O valor da  passgaem FICOU EM " , passagem ,"reais")
+
+
+Fimalgoritmo
