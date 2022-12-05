@@ -1,0 +1,34 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/12/2022
+Var
+// Seção de Declarações das variáveis 
+Gen,Nome:Caractere
+Valor,desconto:Real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("qual seu nome?")
+leia(nome)
+escreval("qual seu genero?")
+leia(gen)
+escreval("qual valor da compra?")
+leia(valor)
+escreval("sua compra foi de" , valor ,"R$ e por ser do gen ", gen)
+se gen="f" então
+escreval("seu desconto foi de 13% e o valor final é de", valor)
+escreval (valor-(0.13*valor),"R$")
+senao
+escreval ("seu descont foi de 5% e o valor final é de")
+escreval (valor-(0.05*valor),"R$")
+
+
+
+
+
+Fimalgoritmo
+fimse
